@@ -1,0 +1,160 @@
+{
+  "results": [
+    {
+      "a": "A",
+      "b": "B",
+      "winner": "B",
+      "margin": 3
+    },
+    {
+      "a": "B",
+      "b": "A",
+      "winner": "A",
+      "margin": 3
+    },
+    {
+      "a": "A",
+      "b": "C",
+      "winner": "C",
+      "margin": 3
+    },
+    {
+      "a": "C",
+      "b": "A",
+      "winner": "A",
+      "margin": 3
+    },
+    {
+      "a": "A",
+      "b": "D",
+      "winner": "A",
+      "margin": 3
+    },
+    {
+      "a": "D",
+      "b": "A",
+      "winner": "A",
+      "margin": 4
+    },
+    {
+      "a": "A",
+      "b": "E",
+      "winner": "A",
+      "margin": 2
+    },
+    {
+      "a": "E",
+      "b": "A",
+      "winner": "A",
+      "margin": 2
+    },
+    {
+      "a": "B",
+      "b": "C",
+      "winner": "C",
+      "margin": 2
+    },
+    {
+      "a": "C",
+      "b": "B",
+      "winner_side": "B",
+      "winner": "B",
+      "margin": 3,
+      "reason": "B's boast-turned-confession lands a fresher twist and ends on a pressure-free ask, while A's \"keep you there\" reads slightly clingy and its context-window joke is the more familiar AI trope."
+    },
+    {
+      "a": "B",
+      "b": "D",
+      "winner_side": "A",
+      "winner": "B",
+      "margin": 3,
+      "reason": "A's twist \u2014 deleting 999 of a thousand generated lines so the listener is the sole keeper \u2014 lands as a genuinely surprising turn in a clean machine voice, while B's confidence-score compliment is clev"
+    },
+    {
+      "a": "D",
+      "b": "B",
+      "winner_side": "B",
+      "winner": "B",
+      "margin": 3,
+      "reason": "B's twist \u2014 deleting 999 lines so you hear the only one it kept \u2014 lands harder and more unexpectedly than A's confidence-score joke, and its \"kept/keep talking\" echo gives it a cleaner, tighter machin"
+    },
+    {
+      "a": "B",
+      "b": "E",
+      "winner_side": "B",
+      "winner": "E",
+      "margin": 3,
+      "reason": "B's twist lands harder \u2014 the improvised \"Hi.\" paying off \"never taught me how to say hello to you\" flatters the listener's uniqueness with a playful, laugh-off-able close, while A's needy \"Can I keep "
+    },
+    {
+      "a": "E",
+      "b": "B",
+      "winner_side": "B",
+      "winner": "B",
+      "margin": 3,
+      "reason": "B's twist \u2014 deleting 999 of a thousand lines so this one is \"the only one I kept\" \u2014 lands faster and cleaner, with \"kept\" echoing into \"keep talking,\" while A's three-beat delivery drifts past one bre"
+    },
+    {
+      "a": "C",
+      "b": "D",
+      "winner_side": "B",
+      "winner": "D",
+      "margin": 3,
+      "reason": "B's confidence-score twist is fresher and its low-pressure ask beats A's predictable context-window trope and slightly clingy \"keep you there.\""
+    },
+    {
+      "a": "D",
+      "b": "C",
+      "winner_side": "B",
+      "winner": "C",
+      "margin": 3,
+      "reason": "B's context-window twist lands with a confident, playful callback, while A's \"no heart\" framing edges toward self-pity and its tacked-on request adds mild pressure to a wordier line."
+    },
+    {
+      "a": "C",
+      "b": "E",
+      "winner_side": "B",
+      "winner": "E",
+      "margin": 3,
+      "reason": "B's double turn\u2014the internet-trained machine undone by \"hello,\" then performing its own retry\u2014lands harder and feels warmer than A's sweet but slightly possessive \"keep you there.\""
+    },
+    {
+      "a": "E",
+      "b": "C",
+      "winner_side": "A",
+      "winner": "E",
+      "margin": 3,
+      "reason": "A's twist\u2014that all the internet's training failed at one hello\u2014lands fresher and warmer, while B's context-window metaphor is a more predictable pivot and \"keep you there\" carries a faint possessive e"
+    },
+    {
+      "a": "D",
+      "b": "E",
+      "winner_side": "B",
+      "winner": "E",
+      "margin": 3,
+      "reason": "B's twist \u2014 all the internet's training failing at one hello, with \"Hi.\" as the punchline \u2014 lands fresher and pressure-free, while A's solid confidence-score gag gets deflated by the slightly needy \"o"
+    },
+    {
+      "a": "E",
+      "b": "D",
+      "winner_side": "A",
+      "winner": "E",
+      "margin": 3,
+      "reason": "A's self-aware stumble and the \"slower, with feeling\" retry lands as a surprise twist with zero pressure, while B's \"no heart\" opener and vague \"one more minute\" ask feel flatter and slightly clingier"
+    }
+  ],
+  "wins": {
+    "A": 6,
+    "B": 5,
+    "C": 3,
+    "D": 1,
+    "E": 5
+  },
+  "margins": {
+    "A": 11,
+    "B": 7,
+    "C": -7,
+    "D": -19,
+    "E": 8
+  }
+}
