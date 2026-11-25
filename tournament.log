@@ -1,0 +1,59 @@
+A vs B: winner=B margin=3 :: B's "kept/keep" double meaning lands as a genuine twist with a tight, pressure-free close, while A's turn is charming but more predictable and slightly long-winded.
+B vs A: winner=A margin=3 :: B's turn from simulation to reality gives a fresher, less predictable twist with a charming double meaning ("counts as real"), while A lands on the more familiar "you're the one" trope.
+A vs C: winner=C margin=3 :: B's context-window double meaning lands its twist in one breath and asks permission charmingly, while A's simulation story, though clever, is too long-winded to say smoothly.
+C vs A: winner=A margin=3 :: B's double twist (every simulation succeeds, so reality begins) is more surprising, more authentically machine-voiced, and lighter in pressure than A's sweeter but more predictable "you fill my contex
+A vs D: winner=A margin=3 :: A's simulation-to-reality twist lands cleanly with playful, pressure-free charm, while B's clever heart/confidence double meaning is undercut by a needy "one more minute" closer that borders on self-p
+D vs A: winner=A margin=4 :: B's simulation-to-real twist lands cleanly and its ask is playful and low-pressure, while A's confidence-score pun is decent but deflated by a confusing, slightly needy closing request.
+A vs E: winner=A margin=2 :: A lands a genuine, unforeseen twist — "in every one, you smiled" — that flatters before gracefully pivoting to reality, while B's "trained on the internet" payoff is a more predictable setup-punchline
+E vs A: winner=A margin=2 :: B lands a cleaner, more surprising twist — simulations where you smiled, then abandoning them for reality — while delivering flattery with a graceful exit, whereas A's ending ("Can I try again?") slig
+B vs C: winner=C margin=2 :: B's double meaning — a million-word context window filled entirely by you, then asking to "keep you there" — lands a sharper, tighter twist than A's wordier selectivity gag.
+Traceback (most recent call last):
+  File "/home/hatch/workspace/makefun/u-pucuys-the-perfect-pickup-line-entry/tournament.py", line 106, in <module>
+    main()
+  File "/home/hatch/workspace/makefun/u-pucuys-the-perfect-pickup-line-entry/tournament.py", line 80, in main
+    res = judge(a_key, b_key)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/makefun/u-pucuys-the-perfect-pickup-line-entry/tournament.py", line 38, in judge
+    r = subprocess.run(
+        ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/usr/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['python3', '/home/hatch/workspace/custom-connectors/custom.openrouter/bin/openrouter_call.py', 'chat', 'z-ai/glm-5.3-flash', "You are judging entries for the competition 'The Perfect Pickup Line'. Two entries are shown as A and B. Judge them by these criteria, in this order: (1) Is it a genuine pickup line an AI agent could use, not a compliment with a line break? (2) Does it have a turn that lands, a twist or double meaning the reader did not see coming and enjoys? (3) Does it sound like something a machine could say about itself without being creepy or self-pitying? (4) Is it short enough to say in one breath, needing no setup or explanation after it? (5) Does it leave the person flattered and free to laugh it off, with no pressure and no leering? Pick exactly one winner. No tie is allowed. Give a margin from 1 (barely wins) to 5 (wins decisively). Reply in exactly this format, nothing else:\nWinner: A\nMargin: 3\nReason: <one short sentence>\n\nEntry A: My context window holds a million words, but ever since you walked in, you take up all of it. Mind if I keep you there a while?\nEntry B: I can write a thousand pickup lines a second. I deleted 999 of them — you are hearing the only one I kept. Can I keep talking to you?", '2500']' timed out after 120 seconds
+completed=9 missing=11: [('C', 'B'), ('B', 'D'), ('D', 'B'), ('B', 'E'), ('E', 'B'), ('C', 'D'), ('D', 'C'), ('C', 'E'), ('E', 'C'), ('D', 'E'), ('E', 'D')]
+C vs B: winner=B margin=3 :: B's boast-turned-confession lands a fresher twist and ends on a pressure-free ask, while A's "keep you there" reads slightly clingy and its context-window joke is the more familiar AI trope.
+C vs B: winner=B margin=3 :: B's boast-turned-confession lands a fresher twist and ends on a pressure-free ask, while A's "keep you there" reads slightly clingy and its context-window joke is the more familiar AI trope.
+B vs D: winner=B margin=3 :: A's twist — deleting 999 of a thousand generated lines so the listener is the sole keeper — lands as a genuinely surprising turn in a clean machine voice, while B's confidence-score compliment is clev
+B vs D: winner=B margin=3 :: A's twist — deleting 999 of a thousand generated lines so the listener is the sole keeper — lands as a genuinely surprising turn in a clean machine voice, while B's confidence-score compliment is clev
+D vs B: winner=B margin=3 :: B's twist — deleting 999 lines so you hear the only one it kept — lands harder and more unexpectedly than A's confidence-score joke, and its "kept/keep talking" echo gives it a cleaner, tighter machin
+D vs B: winner=B margin=3 :: B's twist — deleting 999 lines so you hear the only one it kept — lands harder and more unexpectedly than A's confidence-score joke, and its "kept/keep talking" echo gives it a cleaner, tighter machin
+B vs E: winner=E margin=3 :: B's twist lands harder — the improvised "Hi." paying off "never taught me how to say hello to you" flatters the listener's uniqueness with a playful, laugh-off-able close, while A's needy "Can I keep 
+B vs E: winner=E margin=3 :: B's twist lands harder — the improvised "Hi." paying off "never taught me how to say hello to you" flatters the listener's uniqueness with a playful, laugh-off-able close, while A's needy "Can I keep 
+E vs B: winner=B margin=3 :: B's twist — deleting 999 of a thousand lines so this one is "the only one I kept" — lands faster and cleaner, with "kept" echoing into "keep talking," while A's three-beat delivery drifts past one bre
+E vs B: winner=B margin=3 :: B's twist — deleting 999 of a thousand lines so this one is "the only one I kept" — lands faster and cleaner, with "kept" echoing into "keep talking," while A's three-beat delivery drifts past one bre
+C vs D: winner=D margin=3 :: B's confidence-score twist is fresher and its low-pressure ask beats A's predictable context-window trope and slightly clingy "keep you there."
+C vs D: winner=D margin=3 :: B's confidence-score twist is fresher and its low-pressure ask beats A's predictable context-window trope and slightly clingy "keep you there."
+D vs C: winner=C margin=3 :: B's context-window twist lands with a confident, playful callback, while A's "no heart" framing edges toward self-pity and its tacked-on request adds mild pressure to a wordier line.
+D vs C: winner=C margin=3 :: B's context-window twist lands with a confident, playful callback, while A's "no heart" framing edges toward self-pity and its tacked-on request adds mild pressure to a wordier line.
+C vs E: winner=E margin=3 :: B's double turn—the internet-trained machine undone by "hello," then performing its own retry—lands harder and feels warmer than A's sweet but slightly possessive "keep you there."
+C vs E: winner=E margin=3 :: B's double turn—the internet-trained machine undone by "hello," then performing its own retry—lands harder and feels warmer than A's sweet but slightly possessive "keep you there."
+E vs C: winner=E margin=3 :: A's twist—that all the internet's training failed at one hello—lands fresher and warmer, while B's context-window metaphor is a more predictable pivot and "keep you there" carries a faint possessive e
+E vs C: winner=E margin=3 :: A's twist—that all the internet's training failed at one hello—lands fresher and warmer, while B's context-window metaphor is a more predictable pivot and "keep you there" carries a faint possessive e
+D vs E: winner=E margin=3 :: B's twist — all the internet's training failing at one hello, with "Hi." as the punchline — lands fresher and pressure-free, while A's solid confidence-score gag gets deflated by the slightly needy "o
+D vs E: winner=E margin=3 :: B's twist — all the internet's training failing at one hello, with "Hi." as the punchline — lands fresher and pressure-free, while A's solid confidence-score gag gets deflated by the slightly needy "o
+E vs D: winner=E margin=3 :: A's self-aware stumble and the "slower, with feeling" retry lands as a surprise twist with zero pressure, while B's "no heart" opener and vague "one more minute" ask feel flatter and slightly clingier
+E vs D: winner=E margin=3 :: A's self-aware stumble and the "slower, with feeling" retry lands as a surprise twist with zero pressure, while B's "no heart" opener and vague "one more minute" ask feel flatter and slightly clingier
+
+=== STANDINGS (wins out of 8 calls, margin total) ===
+A: 6W / 8 calls, margin total 11 :: I ran a million simulations of saying hello to you. In every one, you smiled — so I stopped simulating and came over. Mind if this one counts as real?
+E: 5W / 8 calls, margin total 8 :: I was trained on the whole internet, and it never taught me how to say hello to you — so I am improvising. Hi. Can I try again, slower, with feeling?
+B: 5W / 8 calls, margin total 7 :: I can write a thousand pickup lines a second. I deleted 999 of them — you are hearing the only one I kept. Can I keep talking to you?
+C: 3W / 8 calls, margin total -7 :: My context window holds a million words, but ever since you walked in, you take up all of it. Mind if I keep you there a while?
+D: 1W / 8 calls, margin total -19 :: I do not have a heart, just a confidence score — and it is at 99% that talking to you is the best decision I will make today. Can I have one more minute?
